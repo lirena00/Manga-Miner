@@ -5,9 +5,11 @@ import img2pdf  #pip install img2pdf
 import cfscrape #pip install cfscrape
 from PIL import Image
 
-
-#We are using cfscrape instead of requests here because this site is protected by CloudFlare
-#and cfscrape helps to bypass that 😎
+def scrape():
+"""
+We are using cfscrape instead of requests here because this site is protected by CloudFlare 
+and cfscrape helps to bypass that 😎
+"""
 
 scraper = cfscrape.create_scraper() #creating a cloudflare scraper instance
 manga=input("Enter Manga:")
