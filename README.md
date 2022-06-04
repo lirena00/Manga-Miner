@@ -45,8 +45,8 @@ Contributions are always welcome!
 
 - Clone the repository:
   ```bash
-  git clone https://github.com/LiReNa00/Manga-Miner.git
-  cd Manga-Miner
+  git clone https://github.com/Shobhits7/AI-jarvis.git
+  cd AI-jarvis
   ```
 - Create a new branch:
   ```bash
@@ -54,3 +54,5 @@ Contributions are always welcome!
   ```
 - Make the changes
 - Open a pull request
+
+## Made by Shobhit Jain.
